@@ -1,0 +1,171 @@
+{
+    "id": "6190ed72-1584-4f8a-820f-947362a0be88",
+    "created_at": "2025-03-11T11:23:41Z",
+    "update_at": "2025-03-11T11:30:13Z",
+    "global_timeout": 90,
+    "tunnel_name": "",
+    "start_time": "2025-03-11T11:24:27Z",
+    "end_time": "2025-03-11T11:30:13Z",
+    "summary": {
+        "total_time": 346000000000,
+        "execution_time": 346000000000,
+        "total_tasks": 2,
+        "build_time_consumed": 665000000000,
+        "jobTestExecutionTime": "1m22s",
+        "failed_tasks": 1,
+        "total_stage_info": {
+            "prerun": {
+                "StageFailedPercent": 0,
+                "StagePassPercent": 100,
+                "TotalStage": 2
+            },
+            "scenario": {
+                "StageFailedPercent": 25,
+                "StagePassPercent": 75,
+                "TotalStage": 4
+            },
+            "test_discovery": {
+                "StageFailedPercent": 0,
+                "StagePassPercent": 100,
+                "TotalStage": 2
+            }
+        },
+        "status": "failed",
+        "job_link": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=6190ed72-1584-4f8a-820f-947362a0be88"
+    },
+    "tasks": [
+        {
+            "id": "HYPM-32518-1741692264970083425OMF",
+            "os": "mac",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2025-03-11T11:24:25Z",
+            "update_at": "2025-03-11T11:29:46Z",
+            "start_time": "2025-03-11T11:24:27Z",
+            "end_time": "2025-03-11T11:29:46Z",
+            "group_number": 1,
+            "stages": [
+                {
+                    "id": "c3e4cfae-a119-4b9d-9e42-ab767d237a44",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2025-03-11T11:24:30Z",
+                    "started_at": "2025-03-11T11:24:30Z",
+                    "updated_at": "2025-03-11T11:24:44Z",
+                    "order": 2,
+                    "task_number": 1
+                },
+                {
+                    "id": "b8bfa644-da63-4524-b1dc-d1c23551ab7d",
+                    "type": "test_discovery",
+                    "status": "completed",
+                    "name": "discovery",
+                    "iteration": 0,
+                    "link": "discovery.log",
+                    "created_at": "2025-03-11T11:24:44Z",
+                    "started_at": "2025-03-11T11:24:44Z",
+                    "updated_at": "2025-03-11T11:24:44Z",
+                    "order": 3,
+                    "task_number": 1
+                },
+                {
+                    "id": "dcf98b81-a098-4ad8-8446-230f2f4dd771",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "tests/specs/ToDo.js",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2025-03-11T11:24:45Z",
+                    "started_at": "2025-03-11T11:24:49Z",
+                    "updated_at": "2025-03-11T11:25:15Z",
+                    "order": 4,
+                    "task_number": 1
+                },
+                {
+                    "id": "ed7308cf-dd2d-4b19-a7b0-3179ce59458f",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "tests/specs/googleSearch.js",
+                    "iteration": 0,
+                    "link": "command.2.0.log",
+                    "created_at": "2025-03-11T11:24:45Z",
+                    "started_at": "2025-03-11T11:25:18Z",
+                    "updated_at": "2025-03-11T11:29:02Z",
+                    "order": 5,
+                    "task_number": 1
+                }
+            ]
+        },
+        {
+            "id": "HYPM-32518-1741692265014711631ZFX",
+            "os": "mac",
+            "status": "failed",
+            "remark": "error in running test suites - step 1 - exit status 1",
+            "debug": false,
+            "created_at": "2025-03-11T11:24:25Z",
+            "update_at": "2025-03-11T11:30:13Z",
+            "start_time": "2025-03-11T11:24:27Z",
+            "end_time": "2025-03-11T11:30:13Z",
+            "group_number": 2,
+            "stages": [
+                {
+                    "id": "007e7280-af2d-4346-95be-80d90777196b",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2025-03-11T11:24:30Z",
+                    "started_at": "2025-03-11T11:24:30Z",
+                    "updated_at": "2025-03-11T11:24:44Z",
+                    "order": 2,
+                    "task_number": 2
+                },
+                {
+                    "id": "5bbe2823-e7cc-43cc-81d4-1ca260939ca0",
+                    "type": "test_discovery",
+                    "status": "completed",
+                    "name": "discovery",
+                    "iteration": 0,
+                    "link": "discovery.log",
+                    "created_at": "2025-03-11T11:24:44Z",
+                    "started_at": "2025-03-11T11:24:44Z",
+                    "updated_at": "2025-03-11T11:24:44Z",
+                    "order": 3,
+                    "task_number": 2
+                },
+                {
+                    "id": "dc580f41-a485-4fb7-bce4-c2450b531ede",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "tests/specs/demo.js",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2025-03-11T11:24:45Z",
+                    "started_at": "2025-03-11T11:24:49Z",
+                    "updated_at": "2025-03-11T11:25:18Z",
+                    "order": 4,
+                    "task_number": 2
+                },
+                {
+                    "id": "30dcfb8c-b7a1-4843-9f0c-4ff5cf0b769d",
+                    "type": "scenario",
+                    "status": "failed",
+                    "name": "tests/specs/single_test.js",
+                    "iteration": 0,
+                    "link": "command.2.0.log",
+                    "created_at": "2025-03-11T11:24:45Z",
+                    "started_at": "2025-03-11T11:25:20Z",
+                    "updated_at": "2025-03-11T11:29:28Z",
+                    "order": 5,
+                    "task_number": 2
+                }
+            ]
+        }
+    ],
+    "test_ids": null
+}
