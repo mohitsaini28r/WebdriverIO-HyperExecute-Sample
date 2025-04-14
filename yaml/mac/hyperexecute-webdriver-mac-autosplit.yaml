@@ -11,6 +11,9 @@ concurrency: 2
 
 tunnel: false
 
+env:
+	test: ${abc}
+
 pre:
   - npm install   
 
