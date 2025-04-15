@@ -12,7 +12,7 @@ concurrency: 2
 tunnel: false
 
 env:
-  abc: ${{ .secrets.abc }}
+  abc: ${{.secrets.abc}}
 
 pre:
   - npm install   
