@@ -12,10 +12,15 @@ concurrency: 2
 tunnel: false
 
 env:
-	test: ${abc}
+  abc: ${{ .secrets.abc }}
 
 pre:
   - npm install   
+  - printenv
+  - echo $abc
+  - echo ${abc}
+  - echo $abcd
+  - echo ${abcd}
 
 cacheKey: '{{ checksum "package-lock.json" }}'
 
